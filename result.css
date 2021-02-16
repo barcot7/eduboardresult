@@ -1,0 +1,98 @@
+
+        body {
+            background: #EEEEEE;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.2;
+        }
+        .wrap {
+            width: 650px;
+            margin: 0 auto;
+            background: #FFF;
+            border-radius: 10px;
+            padding: 7px;
+            box-shadow: 0px 0px 5px 3px #ddd;
+            margin-top:  15px;
+        }
+        thead {
+            background-color: #EEEEEE;
+
+        }
+        .headerleft  {
+            border-radius: 5px;
+            padding: 10px;
+            width: 120px;
+        }
+        .headerleft img {
+            width: 69%;
+            margin: 0 auto;
+            display: block;
+            border-top-right-radius: 10px;
+        }
+        .headerright {
+            background-color: #007814;
+            color: #FFF;
+            border-top-right-radius: 10px;
+            padding-left: 0px;
+        }
+        .headerright h2 {
+            padding: 5px 0;
+        }
+        .headerright h2,.headerright h3 {
+            padding-left: 5px;
+            font-size: 1rem;
+        }
+        .headerright h3 {
+            border-bottom: 1px solid #95E16F;
+            font-size: 1rem;
+        }
+        .headerright h3 {
+            padding-top: 10px;
+            height: 30px;
+            background-color: #007814;
+            background-image: url(/img/banner_flag.jpg);
+            background-position: top right;
+            background-repeat: no-repeat;
+            background-size: contain;
+            color: #95E16F;            
+            border-top-right-radius: 10px;
+        }
+
+        .headerright p {
+            background-image: url(img/bg_gradient.png);
+            background-position: center center;
+            background-repeat: repeat-x;
+            padding: 4px !important;
+            font-size: 13px !important;
+        }
+        .headerright p a {
+            text-decoration: none;
+            color: #FFF;
+        }
+        table.info  td{
+            background-color: #eee;
+            padding: 5px;
+        }
+        table.result tr:nth-child(even) {
+            background-color: #DEE1E4;
+        }
+        table.result tr:nth-child(odd) {
+            background-color: #EEEEEE;
+        }
+        table.result td {
+            font-size: 14px;
+            padding: 2px 0;
+            color: #333;
+        }
+        .result_search {
+            color: blue;
+            font-size: 12px;
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 5px solid #86C775;
+        }
+        table.copyright {
+            background-color: #F2F2F2;
+        }
+        table.copyright  td {
+            padding: 5px 0;
+        }
